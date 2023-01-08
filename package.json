@@ -1,5 +1,14 @@
 {
-  "devDependencies": {
+  "name": "site-iagommendes",
+  "version": "1.0.0",
+  "description": "Personal portfolio website",
+  "scripts": {
+    "build": "npx tailwindcss -i ./input.css -o ./docs/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
     "tailwindcss": "^3.2.4"
   }
 }
