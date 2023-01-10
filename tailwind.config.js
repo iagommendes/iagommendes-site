@@ -10,7 +10,19 @@ module.exports = {
         display: ["IBM Plex Monoe"],
         body: ["IBM Plex Mono"],
       },
+      container: {
+        center: true,
+      },
+      spacing: {
+        "92px": "92px",
+        "124px": "124px",
+      },
+      margin: {
+        "92px": "92px",
+        "124px": "124px",
+      },
     },
+
   },
   plugins: [],
 }

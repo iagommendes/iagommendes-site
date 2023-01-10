@@ -513,8 +513,40 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.relative {
+  position: relative;
+}
+
 .m-6 {
   margin: 1.5rem;
+}
+
+.m-8 {
+  margin: 2rem;
+}
+
+.m-3 {
+  margin: 0.75rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
 }
 
 .flex {
@@ -525,66 +557,68 @@ video {
   height: 100vh;
 }
 
-.h-\[250px\] {
-  height: 250px;
-}
-
-.h-\[95px\] {
-  height: 95px;
-}
-
 .h-\[20\%\] {
   height: 20%;
-}
-
-.h-\[30\%\] {
-  height: 30%;
 }
 
 .h-\[40\%\] {
   height: 40%;
 }
 
-.h-\[50\%\] {
-  height: 50%;
+.h-\[95px\] {
+  height: 95px;
 }
 
-.h-\[40px\] {
-  height: 40px;
+.h-20 {
+  height: 5rem;
 }
 
-.h-\[4040\%\] {
-  height: 4040%;
+.h-10 {
+  height: 2.5rem;
 }
 
-.h-fit {
-  height: -moz-fit-content;
-  height: fit-content;
-}
-
-.h-full {
-  height: 100%;
-}
-
-.w-full {
-  width: 100%;
+.h-auto {
+  height: auto;
 }
 
 .w-\[95px\] {
   width: 95px;
 }
 
-.w-auto {
-  width: auto;
-}
-
 .w-\[17px\] {
   width: 17px;
 }
 
-.w-fit {
-  width: -moz-fit-content;
-  width: fit-content;
+.w-\[177px\] {
+  width: 177px;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[30\%\] {
+  width: 30%;
+}
+
+.w-\[50\%\] {
+  width: 50%;
+}
+
+.w-\[60\%\] {
+  width: 60%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
 }
 
 .flex-row {
@@ -601,6 +635,10 @@ video {
 
 .justify-end {
   justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -636,11 +674,6 @@ video {
   border-color: rgb(0 0 0 / var(--tw-border-opacity));
 }
 
-.bg-blue-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(30 58 138 / var(--tw-bg-opacity));
-}
-
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
@@ -648,6 +681,18 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
 }
 
 .text-center {
@@ -685,5 +730,11 @@ video {
   .dark\:bg-slate-800 {
     --tw-bg-opacity: 1;
     background-color: rgb(30 41 59 / var(--tw-bg-opacity));
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:w-\[50\%\] {
+    width: 50%;
   }
 }
