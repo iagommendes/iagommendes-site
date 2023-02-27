@@ -1,57 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Iago Mendes - Software Developer and Design</title>
-  </head>
-  <body>
-    <div
-      class="flex flex-col pt-20 justify-around items-center h-screen w-scree back bg-white dark:text-gray-200 dark:bg-gray-800"
-    >
-      <!-- Navbar -->
-      <div class="flex flex-col justify-between h-[20%] items-center">
-        <a class="text-base font-normal" href="./about/index.html">About</a>
-        <a class="text-base" href="./work/index.html">Work</a>
-        <a class="text-base" href="./blog/index.html">Blog</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;400;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+  <title>Iago Mendes | Programmer & Advertising Professional</title>
+</head>
+
+<body>
+  <div class="container flex flex-col justify-center items-center md:h-screen md:mt-0">
+    <div class="content flex flex-col md:flex-row justify-center items-center  md:m-0  w-full md:w-3/4 ">
+      <div
+        class="p-[5%] py-[15%] title  flex flex-col justify-center items-start w-full md:border-r-2 border-gray-800  md:items-center md:justify-center md:w-1/2 ">
+        <img class="rounded-full border border-gray-800" src="./assets/images/profile.jpg" alt="Iago Mendes Logo"
+          height="80" width="80" />
+        <h1 class="text-4xl font-bold mt-8">Iago Mendes</h1>
+        <h2 class="text-3xl font-normal mt-6">Programmer & <br /> Advertising <br /> Professional</h2>
+        <button
+          class="btn border border-gray-800 rounded-full text-gray-800 hover:bg-gray-800 hover:text-white transition duration-500 ease-in-out mt-16 py-6 px-12">
+          <a href="#contact" class="text-xl font-normal">Contact me</a>
+        </button>
       </div>
 
-      <!-- Profile -->
-      <div class="flex flex-col justify-around items-center h-[40%]">
-        <img
-          class="w-[95px] h-[95px] border border-black rounded-full"
-          src="./assets/images/profile.jpg"
-          alt=""
-        />
-        <div class="flex flex-col items-center justify-items-center">
-          <h1 class="text-2xl font-bold">Iago Mendes</h1>
-          <h2 class="text-sm text-center">Software Development and Advertising</h2>
+      <div class="  title  flex flex-col justify-center items-start w-full  md:overflow-auto
+        md:mt-0 md:items-center md:justify-center md:w-1/2 md:h-1/2 md:px-20 md:py-20">
+
+        <div class="px-[5%] py-[15%] flex flex-col justify-center items-start w-full border-b border-gray-800">
+          <h3 class=" text-2xl font-normal ">About me</h3>
+          <p class="text-base font-normal mt-10">Sou um profissional de comunicação e tecnologia apaixonado inovação e
+            design nde produtos! Tenho bagagem na área...</p>
+
+          <a href="#" class="text-gray-800 underline mt-20">Read more</a>
         </div>
-      </div>
 
-      <!-- Social Media -->
-      <div class="flex flex-col justify-end items-center h-[20%]">
-        <a class="p-4 m-6 underline" href="./contact/index.html">Contact me</a>
+        <div class="px-[5%] py-[15%] flex flex-col justify-center items-start w-full border-b border-gray-800">
+          <h3 class=" text-2xl font-normal mb-20">My Works</h3>
 
-        <div class="flex flex-row gap-2 items-center justify-evenly">
-          <img class="w-[17px]" src="./assets/images/github.png" alt="Github" />
-          <img
-            class="w-[17px]"
-            src="./assets/images/linkedin-in.png"
-            alt="Linkedin"
-          />
-          <img class="w-[17px]" src="./assets/images/twitch.png" alt="Twitch" />
+          <div class="flex flex-row justify-center items-center w-full h-auto">
+            <div class="rounded-full h-20 w-20 bg-gray-500 border-2 border-gray-800 absolute left-8"></div>
+            <div class="rounded-full h-20 w-20 bg-gray-500 border-2 border-gray-800 absolute left-16"></div>
+            <div class="rounded-full h-20 w-20 bg-gray-500 border-2 border-gray-800 absolute left-24"></div>
+          </div>
+
+          <a href="#" class="text-gray-800 underline mt-20">See more</a>
+        </div>
+
+        <div class="px-[5%] py-[15%] flex flex-col justify-center items-start w-full border-b border-gray-800">
+          <h3 class=" text-2xl font-normal mb-20">Últimas do Blog</h3>
+
+          <div class="flex flex-col justify-center items-start w-full h-auto mb-20">
+            <span class="rounded-full border border-gray-800 h-10 w-40  text-gray-800 text-center py-2 px-4">A week
+              ago</span>
+
+            <h4 class="text-base font-normal mt-10 underline">The magic about styling with Tailwind CSS framework</h4>
+          </div>
+
+          <div class="flex flex-col justify-center items-start w-full h-auto mb-20">
+            <span class="rounded-full border border-gray-800 h-10 w-40  text-gray-800 text-center py-2 px-4">13 days
+              ago</span>
+
+            <h4 class="text-base font-normal mt-10 underline">My favorite and most used VsCode extensions</h4>
+          </div>
+
+          <div class="flex flex-col justify-center items-start w-full h-auto mb-10">
+            <span class="rounded-full border border-gray-800 h-10 w-40  text-gray-800 text-center py-2 px-4">A month
+              ago</span>
+
+            <h4 class="text-base font-normal mt-10 underline">How did I start my career in tech?</h4>
+          </div>
+
+          <a href=" #" class="text-gray-800 underline mt-20">Read more</a>
+        </div>
+
+        <div class="px-[5%] py-[15%] flex flex-col justify-center items-start w-full border-b border-gray-800">
+          <h3 class=" text-2xl font-normal mb-20">Let's talk</h3>
+
+          <p class="text-base font-normal mt-10">If you want to talk about a project or just say hi, feel free to send
+            me a
+            message!</p>
+
+          <span class="rounded-full border border-gray-800 h-10 w-40  text-gray-800 text-center py-2 px-4 mt-20"><a
+              href="mailto:iagommendes@gmail.com">Send a message</a></span>
         </div>
       </div>
     </div>
-  </body>
+
+    <div class="footer flex flex-row justify-center items-center w-full h-20 bg-gray-200 gap-8">
+      <div id=" social-icons" class="flex flex-row">
+        <a href="https://www.linkedin.com/in/iagommendes/" target="_blank"
+          class="flex flex-row justify-center items-center w-8 h-8">
+          <img src="./assets/images/linkedin.png" alt="Linkedin Logo" height="18" width="18" />
+        </a>
+        <a href="" target="_blank" class="flex flex-row justify-center items-center w-8 h-8">
+          <img src="./assets/images/github.png" alt="Github Logo" height="18" width="18" />
+        </a>
+        <a href="" target="_blank" class="flex flex-row justify-center items-center w-8 h-8">
+          <img src="./assets/images/twitch.png" alt="Twitch Logo" height="18" width="18" />
+        </a>
+      </div>
+      <div class="h-8 w-0.5 bg-gray-500"></div>
+      <p class="text-sm font-normal text-gray-800">Iago Mendes - 2023</p>
+
+
+
+    </div>
+</body>
+
 </html>
